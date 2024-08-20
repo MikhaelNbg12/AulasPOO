@@ -1,4 +1,4 @@
-package Contador.aula2;
+package Contador;
 
 public class Contador {
 

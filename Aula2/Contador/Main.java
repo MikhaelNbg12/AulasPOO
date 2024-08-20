@@ -1,4 +1,4 @@
-package Aula2.Contador;
+package Contador;
 
 public class Main {
     public static void main(String[] args) {

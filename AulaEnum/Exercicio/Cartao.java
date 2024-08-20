@@ -9,18 +9,23 @@ public class Cartao {
         this.cliente = cliente;
     }
 
-    void calcularDesc(){
+    public double calcularDesc(do){
         switch (cliente) {
             case Platinum:
-                System.out.println("Seu desconto é de 15%");
+                return 0.85 * fatura;
             break;
             case Gold:
-                System.out.println("Seu desconto é de 10%");
+                return 0.90 * fatura;
             break;
             case Silver:
-                System.out.println("Seu desconto é de 5%");
+                return 0.95* fatura;
             break;
         }
+    }
+
+    public void mostrar (){
+        System.out.println("Sua fatura é: "+fatura);
+        System.err.println("Você é cliente "+cliente);
     }
 
     public double getFatura(){
