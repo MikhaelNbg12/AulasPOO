@@ -1,4 +1,4 @@
-package Contador.aula2;
+package Aula2.Contador;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,5 +9,6 @@ public class Main {
         c.incrementar();
         c.decrementar();
         c.mostrar();
+        c.zerar();
     }
 }
