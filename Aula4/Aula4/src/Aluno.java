@@ -1,14 +1,14 @@
 public class Aluno {
     
     private String nome, email;
-    private Endereço endereço;
+    private Endereco endereco;
 
     public Aluno(String nome,
                 String email,
-                Endereço endereço){
+                Endereco endereco){
         this.nome = nome;
         this.email = email;
-        this.endereço = endereço;}
+        this.endereco = endereco;}
     
     public String getNome() {
         return nome;
@@ -18,13 +18,13 @@ public class Aluno {
         return email;
     }
 
-    public Endereço getEndereço() {
-        return endereço;
+    public Endereco getEndereco() {
+        return endereco;
     }
 
     public void mostrar(){
         System.out.println("Nome: "+nome);
         System.out.println("Nome: "+email);
-        endereço.mostrar();
+        endereco.mostrar();
     }
 }

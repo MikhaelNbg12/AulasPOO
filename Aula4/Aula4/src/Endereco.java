@@ -1,9 +1,9 @@
-public class Endereço {
+public class Endereco {
     
     private String logradouro, cep, cidade;
     private Estado estado;
 
-    public Endereço(String logradouro,
+    public Endereco(String logradouro,
                     String cep,
                     String cidade,
                     Estado estado){
