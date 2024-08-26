@@ -6,3 +6,11 @@
 "+" -> public
 "" -> default
 "#" -> protected
+
+## Regra de Negócios
+
+Aconselhável ter o hábito de fazer tipagens (Type-Driven Development)
+
+Só mostro os dados caso o Aluno tenha um cadastro válido.
+
+Records -> são classes aos quais os atributos não variam. Usamos os records p/ incrementar a segurança de tipos.
