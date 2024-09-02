@@ -49,4 +49,12 @@ public class Carrinho {
         return total;
     }
 
+    //Exercício: implementar o método verificarNome da mesma forma que o verificarTipo
+    public void buscarPorNome( String nome){
+        for(int i=0; i < qtAtual; i++){
+            if(produtos[i].getNome() == nome){
+                produtos[i].mostrar();
+            }
+        }
+    }
 }
