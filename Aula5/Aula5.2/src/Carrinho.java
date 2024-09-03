@@ -7,7 +7,7 @@ public class Carrinho {
     private int qtAtual;
 
     public Carrinho(){
-        produtos = new Produto(MAX_QTD);
+        produtos = new Produto[MAX_QTD];
     }
 
     public void inserir(Produto prod) throws Exception {
