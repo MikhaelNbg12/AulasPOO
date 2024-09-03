@@ -7,8 +7,8 @@ public class Main {
         k.inserir(p1);
         k.inserir(p2);
         k.inserir(p3);
-
         k.listar();
+        k.calcularTotal();
 
     }
 }

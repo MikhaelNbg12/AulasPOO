@@ -37,6 +37,7 @@ public class Carrinho {
         for(int i=0; i < qtAtual; i++){
             total = total + produtos[i].getPreco();
         }
+        System.out.println("O total da compra é: "+total);
         return total;
     }
 
@@ -46,6 +47,7 @@ public class Carrinho {
             if(produtos[i].verificarTipo(tipoProduto))
             total = total + produtos[i].getPreco();
         }
+    System.out.println("O total da compra desse tipo é: "+total);
         return total;
     }
 
